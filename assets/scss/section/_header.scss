@@ -70,21 +70,22 @@
     }
     /*MEDIA START*/
     @media screen and (max-width:375px){
-        .header-mobile{
+        &-mobile{
             display: block;
         }
-        .header-navbar{
+        &-navbar{
             display: none;
         }
-        .header-tarmoq{
+        &-tarmoq{
             display: none;
         }
-        .header-profile{
+        &-profile{
             gap: 20px;
         }
     }
     /*MEDIA END*/
-}
+
+    }
 /*HEADER END*/
 
 

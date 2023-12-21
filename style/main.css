@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Comfortaa:300,regular,500,600,700);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
 * {
   margin: 0;
   padding: 0;
@@ -36,6 +38,10 @@ ol, ul, li {
   width: 100%;
   max-width: 1280px;
   margin: 0 auto;
+}
+
+.main {
+  flex: 1 1 auto;
 }
 
 /*HEADER START*/
@@ -111,18 +117,92 @@ ol, ul, li {
   display: none;
 }
 @media screen and (max-width: 375px) {
-  .header .header-mobile {
+  .header-mobile {
     display: block;
   }
-  .header .header-navbar {
+  .header-navbar {
     display: none;
   }
-  .header .header-tarmoq {
+  .header-tarmoq {
     display: none;
   }
-  .header .header-profile {
+  .header-profile {
     gap: 20px;
   }
 }
 
-/*HEADER END*//*# sourceMappingURL=main.css.map */
+/*HEADER END*/
+/*section start*/
+.section {
+  width: 100%;
+  height: 555px;
+}
+.section-wrap {
+  display: flex;
+  height: 100%;
+}
+.section-wrap-banner1 {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  border-radius: 40px;
+  background-color: #F5F5F5;
+  padding: 60px 27px 37px;
+  gap: 20px;
+}
+.section-wrap-banner1-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 566px;
+  height: 278px;
+}
+.section-wrap-banner1-text1 {
+  color: #131313;
+  font-family: "Comfortaa";
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 136.842%;
+}
+.section-wrap-banner1-text2 {
+  color: #4F4F4F;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 175%;
+}
+.section-wrap-banner1-button {
+  display: flex;
+  width: 300px;
+  height: 60px;
+  padding: 30px 36px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  border-radius: 60px;
+  color: #FFF;
+  background-color: #ED145B;
+  transition: all 0.2s ease-in-out;
+}
+.section-wrap-banner1-button:hover {
+  background-color: rgb(133, 4, 4);
+}
+.section-wrap-banner1-button-text3 {
+  font-family: "Montserrat";
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 184.615%;
+}
+.section-wrap-banner1-img {
+  position: absolute;
+  width: 412.541px;
+  height: 241.888px;
+  flex-shrink: 0;
+  right: 0;
+  bottom: 0;
+}
+
+/*section end*//*# sourceMappingURL=main.css.map */
