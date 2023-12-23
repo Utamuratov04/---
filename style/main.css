@@ -136,6 +136,7 @@ ol, ul, li {
 .section {
   width: 100%;
   height: 555px;
+  margin-bottom: 100px;
 }
 .section-wrap {
   display: flex;
@@ -343,4 +344,41 @@ ol, ul, li {
   line-height: 96%;
 }
 
-/*section end*//*# sourceMappingURL=main.css.map */
+/*section end*/
+.section2 {
+  width: 100%;
+  height: 1280px;
+}
+.section2-wrap {
+  display: flex;
+  height: 100%;
+}
+
+.section-wrap-banner-text-text2 {
+  display: flex;
+  gap: 40px;
+}
+.section-wrap-banner-text-text2-left {
+  display: flex;
+  gap: 24px;
+}
+.section-wrap-banner-text-text2-left-one {
+  color: #778CEB;
+  font-family: "Comfortaa";
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+}
+.section-wrap-banner-text-text2-left-two {
+  color: #121212;
+  font-family: "Comfortaa";
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 129.412%;
+}
+.section-wrap-banner-text-text2-right {
+  display: flex;
+  gap: 24px;
+}/*# sourceMappingURL=main.css.map */
