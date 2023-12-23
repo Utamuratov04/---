@@ -27,7 +27,8 @@
    
             color: #131313;
             font-family: $main-font;
-            font-size: 38px;
+            // font-size: calc(28px + (38-28) * (100vw-320px) / (1280 - 320));
+            @include adaptive-value('font-size',38 28);
             font-weight: 700;
             line-height: 136.842%; 
         } 
